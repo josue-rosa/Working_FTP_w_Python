@@ -1,9 +1,5 @@
 import ftplib
 
-# Exemplo: 
-# https://www.youtube.com/watch?v=5fiAaNVwGuA
-
-
 def upload_content(site, remote_dir, filename, login, senha, verbose=True):
     
     local_file = open('C:\\MATERIAL_TB\\Intro.pptx', 'rb')
