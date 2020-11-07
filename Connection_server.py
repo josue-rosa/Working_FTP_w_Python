@@ -2,7 +2,7 @@ import ftplib
 import time
 # import zipfile
 
-login = 'josue'
+login = 'josue.rosa'
 passwd = str(input('Informe a senha do FTP: ')).strip()
 dir_name = '/'
 
@@ -16,4 +16,5 @@ site.cwd(dir_name) # Mudar para o diretorio
 print(site.retrlines('LIST')) # Listar o conteudo do diretorio
 
 site.quit()
+site.close()
 print('Desconectado do servidor \n')
