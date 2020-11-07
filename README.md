@@ -1,2 +1,2 @@
-# Fazendo upload e download de aquivos via FTP
+# Fazendo upload e download de arquivos via FTP
  
