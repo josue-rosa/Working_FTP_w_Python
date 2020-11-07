@@ -1,2 +1,2 @@
-# Working_FTP_w_Python
+# Fazendo upload e download de aquivos via FTP com Python
  
